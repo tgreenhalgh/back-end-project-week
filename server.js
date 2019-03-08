@@ -40,7 +40,7 @@ server.use((req, res) => {
   res.status(404).send(`<h1>404: resource "${req.url}" not found</h1>`);
 });
 
-// true let's JEST run, false let's SERVER run
+// true lets JEST run, false let's SERVER run
 if (false) {
   module.exports = server;
 } else {
